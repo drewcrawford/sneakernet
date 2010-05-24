@@ -1,0 +1,1 @@
+c:\python26\python.exe preflightcompile.py py2exe

@@ -1,0 +1,4 @@
+cron:
+- description: route request
+  url: /requests/route
+  schedule: every 1 minutes

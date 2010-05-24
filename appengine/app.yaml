@@ -1,0 +1,97 @@
+application: whatever
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+
+#admin
+- url: /admin
+  static_files: admin.html
+  upload: admin.html
+  login: admin
+  secure: optional
+- url: /makenewteam
+  script: makenewteam.py
+  login: admin
+  secure: optional
+
+#generic
+- url: /userinfo
+  script: userinfo.py
+  secure: optional
+- url: /accept_invite
+  script: acceptInvite.py
+  secure: optional
+- url: /resetPW
+  script: resetPW.py
+  secure: optional
+#share
+- url: /share/.*
+  script: share.py
+  secure: optional
+- url: /cache/.*
+  script: cachetalk.py
+  secure: optional
+- url: /purge
+  script: purge.py
+#search
+- url: /search/.*
+  script: search.py
+  secure: optional
+#requests
+- url: /requests.*
+  script: requests.py
+  secure: optional
+#sneakfile hosting
+- url: /getsneakfile
+  script: sneakfiles.py
+  secure: optional
+- url: /runsneakfile
+  script: sneakfiles.py
+  secure: optional
+  
+  
+- url: /teamadmin/.*
+  script: teamadmin.py
+  secure: optional
+- url: /run
+  script: run.py
+  secure: optional
+- url: /run/.*
+  script: run.py
+  secure: optional
+  
+# static stuff
+- url: /install
+  static_files: install.html
+  upload: install.html
+  secure: optional
+- url: /sneakernet-mac.dmg
+  static_files: sneakernet-mac.dmg
+  upload: sneakernet-mac.dmg
+  secure: optional
+- url: /preflight.exe
+  static_files: preflight.exe
+  upload: preflight.exe
+  secure: optional
+- url: /sneakernet-win.zip
+  static_files: sneakernet-win.zip
+  upload: sneakernet-win.zip
+  secure: optional
+- url: /
+  static_files: static/Supergwt.html
+  upload: static/Supergwt.html
+  secure: optional
+- url: /Supergwt.css
+  static_files: static/Supergwt.css
+  upload: static/Supergwt.css
+  secure: optional
+- url: /supergwt
+  static_dir: static/supergwt
+  secure: optional
+- url: /supergwt/gwt/dark/.*
+  static_dir: static/supergwt/gwt/dark
+  secure: optional
+
+

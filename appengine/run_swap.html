@@ -1,0 +1,34 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+    "http://www.w3.org/TR/html4/strict.dtd"
+    >
+<html lang="en">
+<head>
+    <title>TOP SECRET MISSION</title>
+</head>
+<body>
+    <font size="+3" color="red">Never leave a lock combination on a padlock!  They do not clear on their own!</font><br /><br />
+    Ok.  Here we go!<br />
+    <br />
+    1.  You need to retrieve a flash drive called <font size="72 px">{{SWAPNAME}}</font>.  Details about its location:<br />
+    <img src="{{SWAPURL}}" /><br />
+    {{SWAPDESCRIPTION}}<br /><br />
+    
+    2.  Once you have {{SWAPNAME}} in your hand, you need to go to a <b>SECOND LOCATION</b>.  At the <b>SECOND LOCATION</b>, you will find <font size="72 px">{{CACHENAME}}</font>.  Details about its location:<br />
+    <img src="{{IMGURL}}" /><br />
+    {{DESCRIPTION}}<br /><br />
+    
+    3.  Leave the drive named <font size="72 px">{{SWAPNAME}}</font> in the place where you found <font size="72 px">{{CACHENAME}}</font>.  That's right, you need to leave {{SWAPNAME}} in a <font size="72 px"><b>different place</b></font> than you found it.<br /><br />
+    
+    4.  Plug {{CACHENAME}} in to your local computer.  Now you need to download <a href="/runsneakfile">this file</a>.  Open the file, and wait for the data to be transferred.<br /><br />
+    
+    5.  Now you need to place {{CACHENAME}} in the place where you found {{SWAPNAME}}.  That's right, you leave {{CACHENAME}} in a <b>different place</b> than you found it.<br /><br />
+    
+    6.  You have now swapped {{CACHENAME}} with {{SWAPNAME}}.<br /><br />
+    <form action="/run/swapcomplete" method="post"><input type="submit" value="Yes, I've swapped {{CACHENAME}} and {{SWAPNAME}}"/>
+    <input type="hidden" name="username" value="{{USERNAME}}" />
+    <input type="hidden" name="password" value="{{PASSWORD}}" />
+    <input type="hidden" name="swapname" value="{{SWAPNAME}}" />
+    <input type="hidden" name="cachename" value="{{CACHENAME}}" />
+    </form>
+</body>
+</html>

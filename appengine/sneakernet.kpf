@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Komodo Project File - DO NOT EDIT -->
+<project id="40e1fca8-761b-d94a-9183-bb1d2e5fc1fe" kpf_version="4" name="sneakernet.kpf">
+<file id="97f2c244-52f2-6e46-868b-7ca4dc752336" idref="40e1fca8-761b-d94a-9183-bb1d2e5fc1fe" name="preflight.py" url="file:///Volumes/y/drew/Dropbox/Code/sneakernet/preflight.py">
+</file>
+<preference-set idref="40e1fca8-761b-d94a-9183-bb1d2e5fc1fe">
+  <string id="import_exclude_matches">*.*~;*.bak;*.tmp;CVS;.#*;*.pyo;*.pyc;.svn;*%*;tmp*.html;.DS_Store</string>
+  <string id="import_include_matches"></string>
+  <boolean id="import_live">1</boolean>
+  <boolean id="import_recursive">1</boolean>
+  <string id="import_type">useFolders</string>
+  <string id="pythonExtraPaths">/Volumes/y/drew/dprophet/trunk/hogwarts/__3rd_party</string>
+</preference-set>
+</project>
