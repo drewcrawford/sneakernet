@@ -4,7 +4,7 @@ BASE_URL="http://localhost:8083/"
 
 from google.appengine.ext import db
 class Magic (db.Model):
-    freeleech = db.BooleanProperty(default=False)
+    freeleech = db.BooleanProperty(default=True)
     
 def get_magic():
     magic = Magic.all().get()
