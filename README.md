@@ -42,7 +42,7 @@ Upload and synchronization:
 
 Getting a sneakernet run e-mail:
 
-![Getting a sneakernet run e-mail](http://imgur.com/SHRAM.png)
+![Getting a sneakernet run e-mail](http://imgur.com/rPjLe.png)
 
 Creating team caches:
 
