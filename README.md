@@ -30,7 +30,23 @@ Large installs should additionally read the large configuration guide.
 
 SCREENSHOTS
 ------------
+Uploading a film
 ![Uploading a film](http://imgur.com/dAArr.png)
+![Uploading a film](http://imgur.com/CAs2K.png)
+![Uploading a film](http://imgur.com/WWwFL.png)
+
+Upload and synchronization:
+![Uploading and synchronization](http://imgur.com/IZqQ3.png)
+
+Getting a sneakernet run e-mail:
+![Getting a sneakernet run e-mail](http://imgur.com/SHRAM.png)
+
+Creating team caches:
+![Creating team caches](http://imgur.com/pV6MP.png)
+
+
+
+
 
 
 
