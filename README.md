@@ -25,8 +25,8 @@ MINIMUM REQUIREMENTS
 
 INSTALL
 -------
-Read the build & deploy guide, followed by the basic configuration guide.
-Large installs should additionally read the large configuration guide.
+Read the [build & deploy guide](http://wiki.github.com/drewcrawford/sneakernet/build-deploy), followed by the [basic configuration guide](http://wiki.github.com/drewcrawford/sneakernet/basic-configuration-guide).
+Large installs should additionally read the [large configuration guide](http://wiki.github.com/drewcrawford/sneakernet/large-configuration-guide).
 
 SCREENSHOTS
 ------------
